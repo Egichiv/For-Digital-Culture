@@ -40,7 +40,7 @@ unsigned long words_total(FILE *file) {
 }
 
 int main(int argc, char *argv[]) {
-    printf("World sucks");
+    printf("World is amazing");
     if (argc >= 3) {
         FILE *needed_file;
         needed_file= fopen(argv[argc - 1], "r");
